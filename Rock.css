@@ -1,0 +1,62 @@
+html, body {
+    height: 100%; margin: 0;
+} 
+body {
+     background-color:black;
+    color: white;
+    font-family:  "Roboto", sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.Buttons {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-content: center;
+    gap: 50px;
+    flex-wrap: wrap;
+    padding: 24px;
+    max-width: 1100px;
+
+}
+.Buttons button {
+    font-size: 48px;
+    font-family: "Asimovian", sans-serif;
+    font-weight: 400;
+    padding: 5px 20px;
+    border: none;
+    border-radius: 70%;
+    cursor: pointer;
+    transition: 0.3s;
+}
+.ROCK {
+    background-color: rgb(255, 217, 167);
+    box-shadow: 0px 2px 8px rgb(200, 181, 145);
+    color: black;
+}
+.Paper {
+    background-color: rgb(255, 116, 116);
+    box-shadow: 0px 2px 8px rgb(205, 140, 140);
+    color: rgb(255, 249, 249);
+}
+.Scissors {
+    background-color: rgb(166, 214, 255);
+    box-shadow: 0px 2px 8px rgb(159, 187, 211);
+    color: rgb(45, 45, 45);
+}
+.ROCK:hover {
+    background-color: rgb(254, 203, 136);
+    box-shadow: 3px 4px 16px rgb(208, 199, 179);
+    transform: scale(1.1);
+}
+.Paper:hover {
+    background-color: rgb(255, 92, 92);
+    box-shadow: 3px 4px 16px rgb(205, 140, 140);
+    transform: scale(1.1);
+}
+.Scissors:hover {
+    background-color: rgb(130, 193, 248);
+    box-shadow: 3px 4px 16px rgb(159, 187, 211);
+    transform: scale(1.1);
+}
